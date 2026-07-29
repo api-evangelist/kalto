@@ -1,8 +1,26 @@
 aid: kalto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kalto.png
 name: Kalto
-description: 'Kalto is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: payments. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Kalto was a B2B payments and financing platform headquartered in Mexico City, founded in
+  2021 and seed-backed by QED Investors. It offered an all-in-one B2B checkout for merchants, distributors,
+  wholesalers, and marketplaces, accepting bank transfers, credit and debit cards, and cash, with an integrated
+  financing product that let merchants extend net payment terms (15/30/45 days) to their business buyers.
+  In April 2025 Kalto was acquired by Tiendanube (Nuvemshop) to power "Pago Nube," a native embedded checkout
+  and financial-services experience for Tiendanube merchants in Mexico. As of this profile the standalone
+  kalto.la domain no longer resolves to a company site (it redirects to unrelated parked pages) and Kalto
+  publishes no public developer portal, API documentation, or OpenAPI, so there is no live API surface to
+  enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/kalto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,24 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: tiendanube
+x-acquired-date: '2025-04-29'
+x-headquarters: Mexico City, Mexico
+x-founded: '2021'
+x-developer-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Payments
+- Fintech
+- B2B
+- Checkout
+- Lending
+- Mexico
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,8 @@ maintainers:
 common:
 - type: Website
   url: https://kalto.la/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
