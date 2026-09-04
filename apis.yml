@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://kalto.la/', status: 301, note: 'declared website redirects to https://www.cerimonhouse.org/third-way-productions — a different registrable domain (kalto.la -> cerimonhouse.org), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kalto.png
 name: Kalto
 description: 'Kalto was a B2B payments and financing platform headquartered in Mexico City, founded in
